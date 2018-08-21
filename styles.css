@@ -4,7 +4,7 @@ body{
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222
-  background: #F0F8FF;
+  background: #FFEBCD;
 }
 
 header{
@@ -19,6 +19,31 @@ header{
   padding: 20px;
 }
 
+.card-left{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+.card-right{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+.card-left:hover,
+.card-right:hover{
+  border-color: #3571A3;
+}
+
 footer .copyright{
   top: 8px;
   margin-right: 20px;
@@ -28,7 +53,7 @@ footer .copyright{
 
 .main-nav{
   width: 100%;
-  background: #8A2BE2;
+  background: #87CEEB;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -59,7 +84,7 @@ footer .copyright{
 
 /* Home button */
 .homebtn {
-  background-color: DarkBlue;
+  background-color: #4682B4;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -67,7 +92,7 @@ footer .copyright{
 }
 
 .dropbtn {
-    background-color: DarkBlue;
+    background-color: #4682B4;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -99,4 +124,4 @@ footer .copyright{
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #3571A3;}
