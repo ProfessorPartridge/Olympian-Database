@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -7,19 +7,19 @@ body{
   background: #FFEBCD;
 }
 
-header{
+header {
   text-align: center;
   background-size: cover;
   overflow: hidden;
   padding-top: 5%;
 }
 
-.intro{
+.intro {
   text-align: left;
   padding: 20px;
 }
 
-.card-left{
+.card-left {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -29,7 +29,7 @@ header{
   border-radius: 6px;
 }
 
-.card-right{
+.card-right {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -44,14 +44,14 @@ header{
   border-color: #3571A3;
 }
 
-footer .copyright{
+footer .copyright {
   top: 8px;
   margin-right: 20px;
   font-size: .75em;
   padding-top: 50%;
 }
 
-.main-nav{
+.main-nav {
   width: 100%;
   background: #87CEEB;
   min-height: 30px;
@@ -120,8 +120,14 @@ footer .copyright{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3571A3;}
+.dropdown:hover .dropbtn {
+  background-color: #3571A3;
+}
