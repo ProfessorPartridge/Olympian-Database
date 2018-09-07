@@ -48,6 +48,10 @@ h2 {
     border-radius: 8px;
 }
 
+.intro:hover {
+  border-color: purple;
+}
+
 .divider {
   display: block;
   content: "";
@@ -187,8 +191,4 @@ header .header-image:hover {
   padding-right: 50px;
   margin: auto;
   max-width: 960px;
-}
-
-.primary-content:hover {
-  border-color: purple;
 }
