@@ -14,6 +14,10 @@ header {
   padding: 5%;
 }
 
+footer {
+  margin-top: auto;
+}
+
 h1 {
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
@@ -24,21 +28,35 @@ h1 {
   margin-top: 12px 0 0;
 }
 
+h2 {
+  font-weight: normal;
+  color: rgba(150, 150, 150, 1);
+}
+
 .main-header {
   background-size: cover;
 }
 
 .intro {
+    width: auto;
     font-size: 1.25em; /* 20px/16px */
     line-height: 1.6;
     margin: auto;
     padding: 20px 40px 40px;
-    max-width: 500px;
-    text-align: left;
     background: #fff;
     border-bottom: 4px solid #ccc;
-    border-radius: 6px;
-    align-items: center;
+    border-radius: 8px;
+}
+
+.divider {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: rgba(150, 150, 150, 1);
+  border-width: 0 0 1px 0;
+  border-radius: 8px;
 }
 
 footer .copyright {
@@ -46,6 +64,7 @@ footer .copyright {
   margin-right: 20px;
   font-size: .75em;
   padding-top: 20%;
+  font-weight: normal;
 }
 
 .main-nav {
@@ -110,6 +129,7 @@ header .header-image:hover {
   padding: 16px;
   font-size: 16px;
   border: 1px;
+  border-radius: 8px;
 }
 
 .dropbtn {
@@ -118,6 +138,7 @@ header .header-image:hover {
     padding: 16px;
     font-size: 16px;
     border: 1px;
+    border-radius: 8px;
 }
 
 .dropdown {
@@ -132,6 +153,8 @@ header .header-image:hover {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 8px;
+
 }
 
 .dropdown-content a {
@@ -143,6 +166,7 @@ header .header-image:hover {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  border-radius: 8px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -158,9 +182,13 @@ header .header-image:hover {
 }
 
 .primary-content {
-  width: 75%;
+  width: 100%;
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
   max-width: 960px;
+}
+
+.primary-content:hover {
+  border-color: purple;
 }
