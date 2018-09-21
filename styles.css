@@ -1,5 +1,5 @@
 /*
-========== CSS Stylesheet for the Greek God Database Site ==========
+========== CSS Stylesheet for the Olympian Database Site ==========
  */
 
  /*
@@ -188,7 +188,7 @@ footer .copyright {
 ========== Media Queries ==========
  */
 
- @media (min-width: 350px) AND (max-width: 450px) {
+ @media (min-width: 299px) AND (max-width: 450px) {
    .main-header{
      padding-top: 25%;
    }
